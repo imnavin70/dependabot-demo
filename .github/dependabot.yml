@@ -1,21 +1,12 @@
 version: 2
-registries:
-  dockerhub: # Define access for a private registry
-    type: docker-registry
-    url: registry.hub.docker.com
-  quay: # Define access for a private registry
-    type: docker-registry
-    url: quay.io
 updates:
   - package-ecosystem: "docker"
-    directory: "/docker.io/"
+    directory: "/docker.io"
     registries:
       - dockerhub # Allow version updates for dependencies in this registry
     schedule:
       interval: "monthly"
   - package-ecosystem: "docker"
-    directory: "/quay.io/"
-    registries:
-      - quay # Allow version updates for dependencies in this registry
+    directory: "/quay.io"
     schedule:
       interval: "monthly"
