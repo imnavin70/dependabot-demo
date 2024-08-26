@@ -1,1 +1,1 @@
-FROM jetstack/cert-manager-cainjector:v1.15.0
+FROM quay.io/jetstack/cert-manager-cainjector:v1.15.0
