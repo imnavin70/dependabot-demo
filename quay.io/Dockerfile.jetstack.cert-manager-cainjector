@@ -1,0 +1,1 @@
+FROM jetstack/cert-manager-cainjector:v1.15.0
