@@ -8,3 +8,4 @@ updates:
     directory: "/quay.io"
     schedule:
       interval: "monthly"
+
