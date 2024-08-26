@@ -2,8 +2,6 @@ version: 2
 updates:
   - package-ecosystem: "docker"
     directory: "/docker.io"
-    registries:
-      - dockerhub # Allow version updates for dependencies in this registry
     schedule:
       interval: "monthly"
   - package-ecosystem: "docker"
